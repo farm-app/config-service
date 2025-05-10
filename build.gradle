@@ -13,6 +13,10 @@ java {
     }
 }
 
+springBoot {
+    mainClass = 'ru.rtln.config.ConfigServiceApplication'
+}
+
 repositories {
     mavenCentral()
 }
