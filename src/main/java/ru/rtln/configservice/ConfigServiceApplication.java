@@ -1,4 +1,4 @@
-package ru.rtln.configservice.configservice;
+package ru.rtln.configservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
