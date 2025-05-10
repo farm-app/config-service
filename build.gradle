@@ -14,7 +14,7 @@ java {
 }
 
 springBoot {
-    mainClass = 'ru.rtln.config.ConfigServiceApplication'
+    mainClass = 'ru.rtln.configservice.ConfigServiceApplication'
 }
 
 repositories {
