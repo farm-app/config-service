@@ -1,0 +1,25 @@
+server:
+  port: 8888
+
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8761/eureka
+
+spring:
+  profiles:
+    active: default
+  application:
+    name: config
+  cloud:
+    config:
+      server:
+        git:
+          default-label: main
+          uri: https://github.com/antonov-aa2702/properties-test.git
+          username: antonov-aa2702
+          password: ${CONFIG_SERVER_PASSWORD:test}
+          clone-on-start: true
+          basedir: C:\Users\79616\IdeaProjects\git\properties-test
+          refresh-rate: 60
+
